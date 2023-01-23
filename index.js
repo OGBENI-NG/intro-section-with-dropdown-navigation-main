@@ -8,6 +8,7 @@ const companyContainer = document.getElementById('company-container')
 const featuresItems = document.querySelector('.features-items')
 const companyItem = document.querySelector('.company-items')
 isClicked = true
+isLiked = true
 companyItem.classList.add('hidden')
 
 
@@ -31,14 +32,14 @@ featuresIconContainer.addEventListener('click', () => {{
 }})
 
 companyContainer.addEventListener('click', () =>{
-    if(isClicked) {
+    if(isLiked) {
         arrowDownCompany.src = 'images/icon-arrow-up.svg'
         companyItem.classList.remove('hidden')
     } else {
         arrowDownCompany.src = 'images/icon-arrow-down.svg'
         companyItem.classList.add('hidden')
     }
-    isClicked = !isClicked
+    isLiked = !isLiked
 })
 
 
