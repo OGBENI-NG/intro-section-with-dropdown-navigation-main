@@ -243,12 +243,15 @@ p {
 
     h1 {
         font-size: 3.5rem;
-        padding-top: .7em;
+        padding-top: 1.2em;
         text-align: start;
+        
     }
 
     p {
         text-align: left;
+        margin-top: 0;
+        padding: -.5em;
     }
 
     .make {
@@ -274,10 +277,11 @@ p {
     .desktop-article, 
     .deskstop-here-con{
         height: 490px;
-        width: 40%;
+        width: 36%;
     }
 
-    .features-careers-con, .login-con {
+    .features-careers-con, 
+    .login-con {
         flex-direction: row;
         gap: 1em;
     }
@@ -326,12 +330,13 @@ p {
         position: relative;
     }
 
-    .features-items, .company-items {
+    .features-items, 
+    .company-items {
         position: absolute;
         background: var(--Neutral-Almost-White);
         top: 57px;
         width: max-content;
-        padding: 1em;
+        padding: 1em .5em;
         left: 110px;
         font-size: .865rem;
         box-shadow: 0px 12px 52px 0px rgba(0,0,0,0.27);
@@ -349,7 +354,7 @@ p {
 
     .features {
         visibility: visible;
-        width: 89%;
+        width: 89.5%;
         height: 60px;
         flex-direction: row;
         align-items: center;
@@ -360,6 +365,8 @@ p {
     .ads {
         padding: 0;
         width: 100%;
+        gap: 3em;
+        margin: auto;
         position: absolute;
         bottom: 0;
         padding: .5em 1em 0;
@@ -367,7 +374,8 @@ p {
 
     .learn-more-con {
         z-index: 2;
-        padding: 0 1em 1em;
+        padding: 0 1em;
+        margin: -1em 0;
     }
 
     .learn-more {
