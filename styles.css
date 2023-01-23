@@ -243,15 +243,16 @@ p {
 
     h1 {
         font-size: 3.5rem;
-        padding-top: 1.2em;
+        padding-top: 1.1em;
         text-align: start;
         
     }
 
     p {
+        display: inline-block;
         text-align: left;
-        margin-top: 0;
-        padding: -.5em;
+        margin: 0;
+        padding-bottom: 1.1em;
     }
 
     .make {
@@ -266,7 +267,7 @@ p {
         width: 100%;
         justify-content: center;
         padding: 0 2em;
-        margin: 1.5em auto 0;
+        margin: 1.5em auto;
     }
 
 
@@ -276,7 +277,7 @@ p {
 
     .desktop-article, 
     .deskstop-here-con{
-        height: 490px;
+        height: 500px;
         width: 36%;
     }
 
@@ -336,7 +337,7 @@ p {
         background: var(--Neutral-Almost-White);
         top: 57px;
         width: max-content;
-        padding: 1em .5em;
+        padding: .5em .6em;
         left: 110px;
         font-size: .865rem;
         box-shadow: 0px 12px 52px 0px rgba(0,0,0,0.27);
