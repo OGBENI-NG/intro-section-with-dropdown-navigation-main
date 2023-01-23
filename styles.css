@@ -35,6 +35,10 @@ header {
     padding: 1.5em 1em;
 }
 
+main {
+    padding-bottom: 2em;
+}
+
 .hero-image {
     width: 100%;
 }
@@ -174,14 +178,18 @@ div.features > .close-menu {
     display: block;
     margin: 0 auto;
     border: none;
-    margin-top: -.6em;
+   
 }
 
 .ads {
     justify-content: space-between;
-    padding: 2.5em 1em;
     align-items: center;
     gap: 1.5em;
+    padding: 0 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
 }
 
 div.ads > img {
