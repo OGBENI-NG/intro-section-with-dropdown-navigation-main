@@ -338,7 +338,7 @@ p {
         top: 57px;
         width: max-content;
         padding: .5em .6em;
-        left: 110px;
+        left: 109px;
         font-size: .865rem;
         box-shadow: 0px 12px 52px 0px rgba(0,0,0,0.27);
         -webkit-box-shadow: 0px 12px 52px 0px rgba(0,0,0,0.27);
@@ -347,7 +347,7 @@ p {
     }
 
     .company-items {
-        left: 256px;
+        left: 252px;
         top: 39px;
     }
 
