@@ -223,14 +223,19 @@ p {
 }
 
 @media (min-width: 786px) {
+
+    body {
+        overflow: hidden;
+    }
     .menu-bar, .close-menu, .hero-image {
         display: none;
     }
 
     .hero-image2 {
-        display: block;
+        display: inline-block;
         width: 100%;
-        height: 100%;
+        height: 97%;
+       
     }
 
     header {
@@ -243,8 +248,8 @@ p {
 
     h1 {
         font-size: 3.5rem;
-        padding-top: 1.1em;
         text-align: start;
+        padding-top: 1.26em;
         
     }
 
@@ -252,7 +257,6 @@ p {
         display: inline-block;
         text-align: left;
         margin: 0;
-        padding-bottom: 1.1em;
     }
 
     .make {
@@ -267,17 +271,19 @@ p {
         width: 100%;
         justify-content: center;
         padding: 0 2em;
-        margin: 1.5em auto;
+        margin: 2.3em auto;
     }
 
 
     .desktop-article {
        position: relative;
+       display: flex;
+       flex-direction: column;
     }
 
     .desktop-article, 
     .deskstop-here-con{
-        height: 500px;
+        height: 550px;
         width: 36%;
     }
 
@@ -364,19 +370,17 @@ p {
     }
 
     .ads {
-        padding: 0;
         width: 100%;
         gap: 3em;
         margin: auto;
         position: absolute;
         bottom: 0;
-        padding: .5em 1em 0;
+        padding: .5em 1em;
     }
 
     .learn-more-con {
         z-index: 2;
-        padding: 0 1em;
-        margin: -1em 0;
+        padding: 1em 1.2em 0;
     }
 
     .learn-more {
@@ -391,8 +395,6 @@ p {
         border: 1px solid var(--Neutral-Almost-Black);
         
     }
-
-
 
     div.features-icon-container > span:hover, 
     .features-careers-con span:hover,  
